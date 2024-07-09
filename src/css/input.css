@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ h1{
+    font-family:"PT Serif", serif;;
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+input:focus
+{
+    border: 2px solid #8618BD;
+    box-shadow: 0 0 3px #8618BD;
+    outline-offset: 0px;
+    outline: none;
+}
+
+  
